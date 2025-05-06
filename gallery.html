@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Elegance Restaurant</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Elegance</h1>
+            <p>Fine Dining</p>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <h2>Our Gallery</h2>
+            <p>A visual journey through our culinary world</p>
+        </section>
+
+        <section class="gallery-filter">
+            <ul class="filter-options">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="food">Food</li>
+                <li data-filter="drinks">Drinks</li>
+                <li data-filter="interior">Interior</li>
+                <li data-filter="events">Events</li>
+            </ul>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="gallery-item" data-category="food">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Signature Dish">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Truffle Infused Filet Mignon</h3>
+                        <p>Our signature dish</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Restaurant Interior">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Main Dining Room</h3>
+                        <p>Elegant atmosphere</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="drinks">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Signature Cocktail">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Elegance Martini</h3>
+                        <p>Our signature cocktail</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Seafood Dish">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Mediterranean Sea Bass</h3>
+                        <p>Fresh catch of the day</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="events">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Private Event">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Private Dining</h3>
+                        <p>Exclusive events</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Bar Area">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>The Bar</h3>
+                        <p>Sophisticated ambiance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Dessert">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Chocolate Soufflé</h3>
+                        <p>Decadent dessert</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="drinks">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Wine Selection">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Wine Cellar</h3>
+                        <p>Premium selections</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="events">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Chef's Table">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Chef's Table</h3>
+                        <p>Exclusive dining experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Appetizer">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Seared Scallops</h3>
+                        <p>Delicate starter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="interior">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Outdoor Seating">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Terrace</h3>
+                        <p>Al fresco dining</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="events">
+                <img src="https://avatars.mds.yandex.net/i?id=183cff5e0002681c3ff5a7481ea6d212a942e9ba-4404915-images-thumbs&n=13" alt="Special Event">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h3>Wine Tasting Event</h3>
+                        <p>Monthly special</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <span class="close-lightbox">&times;</span>
+                <img src="/placeholder.svg" alt="" id="lightbox-img">
+                <div class="lightbox-caption"></div>
+                <div class="lightbox-controls">
+                    <span class="prev-img"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next-img"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Hours</h3>
+                <p>Monday - Thursday: 5:30pm - 10:00pm</p>
+                <p>Friday - Saturday: 5:00pm - 11:00pm</p>
+                <p>Sunday: 5:00pm - 9:00pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet Street, Culinary City</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@elegancerestaurant.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-yelp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Elegance Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
